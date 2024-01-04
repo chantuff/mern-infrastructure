@@ -1,11 +1,15 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
- require('dotenv').config();
+
 
 // define variables
 const PORT = process.env.PORT || 3001;
+
+// Connect to the database
+require('./config/database.cjs');
 
 // create app
 const app = express();
