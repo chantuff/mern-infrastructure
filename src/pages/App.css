@@ -120,7 +120,7 @@ input:focus {
 button, a.button {
   margin: 1vmin;
   padding: 1vmin;
-  color: var(--orange);
+  color: var(--white);
   background-color: var(--orange);
   font-size: 2vmin;
   font-weight: bold;
