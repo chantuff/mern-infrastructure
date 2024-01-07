@@ -5,6 +5,7 @@ function OrderHistoryPage() {
   const handleCheckToken = async () => {
     try {
       const expDate = await checkToken()
+      console.log(expDate)
     } catch (err) {
       console.log(err)
     }
